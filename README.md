@@ -60,13 +60,11 @@
 
 <ul>
     <li><strong>Hello Service:</strong></li>
-    <img src="path/to/hello-service-screenshot.png" alt="Hello Service">
-
+    <img src="./images/hello.png" alt="Hello Service"/>
     <li><strong>World Service:</strong></li>
-    <img src="path/to/world-service-screenshot.png" alt="World Service">
-
+    <img src="./images/world.png" alt="World Service"/>
     <li><strong>Integration Service:</strong></li>
-    <img src="path/to/integration-service-screenshot.png" alt="Integration Service">
+    <img src="./images/hello world.png" alt="Integration Service"/>
 </ul>
 
 <h2 id="dockerization">2. Dockerization</h2>
@@ -100,16 +98,8 @@ kubectl apply -f integration-service.yaml</code></pre>
 
 <h3>3.3 Test the Integration</h3>
 <p>Access the combined "Hello World" output at:</p>
-<a href="http://localhost:8080">http://localhost:8080</a>
+<a>http://localhost:<your_deployed_port_num></a>
 
-<h2>Troubleshooting</h2>
-<p>If you encounter issues, check the Minikube and Kubernetes logs:</p>
-<pre><code>minikube logs
-kubectl logs &lt;pod-name&gt;</code></pre>
-<p>Refer to the <a href="https://minikube.sigs.k8s.io/docs/">Minikube documentation</a> and <a href="https://kubernetes.io/docs/">Kubernetes documentation</a> for additional help.</p>
 
-<hr>
-
-<p>Feel free to contribute by submitting pull requests or opening issues in the <a href="https://github.com/Kruti0910/Hello-World-Microservices-Application">GitHub repository</a>.</p>
 
 
